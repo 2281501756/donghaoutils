@@ -4,3 +4,5 @@
 // export { myFreeze, myApply }
 export * from './function'
 export * from './object'
+export * from './promise'
+export * from './string'

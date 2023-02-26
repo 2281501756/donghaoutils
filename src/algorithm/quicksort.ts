@@ -1,5 +1,6 @@
 export const quicksort = function (arr: number[]) {
   quick(0, arr.length - 1)
+  console.log(arr)
   return arr
   function quick(l: number, r: number) {
     if (l >= r) return

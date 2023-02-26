@@ -2,5 +2,5 @@ import { quicksort } from '../../src/algorithm/quicksort'
 import { test, expect } from '@jest/globals'
 
 test('测试quicksort', () => {
-  expect(quicksort([4, 3, 1, 2, 5])).toEqual([1, 2, 3, 4, 5])
+  expect(quicksort([9, 2, 4, 6, 1])).toEqual([1, 2, 4, 6, 9])
 })
